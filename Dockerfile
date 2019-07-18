@@ -60,7 +60,7 @@ RUN cd $HOME/work;\
                 dash-renderer \
                 flask; \
     python -m sos_notebook.install;\
-    git clone https://github.com/qMRLab/notebooks.git;                             \
+    git clone -b b1filter --single-branch https://github.com/qMRLab/notebooks.git; \
     cd notebooks;\
     git clone https://github.com/neuropoly/qMRLab.git;   \
     cd qMRLab; \
