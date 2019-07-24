@@ -7,6 +7,7 @@ Not included in instruction: cloning the repo and checking the branch.
 * (Recommended) Create a conda virtual environment.
   * `conda create -n sos_matlab python=3.6`
   * `conda activate sos_matlab`
+  * `conda install ipython=7.2.0`
 * Setup the MATLAB Engine API for Python
   * `cd /Applications/MATLAB_R2018b.app/extern/engines/python/`
   * `python setup.py install`
