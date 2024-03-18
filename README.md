@@ -1,5 +1,8 @@
 # B1 filtering notebook
 
+Dependencies:
+* [qMRLab](https://github.com/qMRLab/qmrlab) must be installed in this directory on your local machine.
+
 # Environment setup
 
 Not included in instruction: cloning the repo and checking the branch.
